@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bca3971838.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1 class="title"><span>Welcome</span> to My Portfolio</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#project">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>MERN Stack Developer</p>
+                <h1>Hi, I'm <span>Pragadeeshwaran</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- About me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20210325_074459.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there! I'm Pragadeeshwaran, a passionate and ambitious fresher diving headfirst into the exciting world of web development, particularly focusing on the MERN (MongoDB, Express.js, React.js, Node.js) stack. With a strong foundation in programming fundamentals and a thirst for learning, I am eager to contribute my skills and enthusiasm to create innovative and dynamic web applications. <br>
+
+                        &nbsp; <br>
+                        I recently completed my Full-Stack development in MERN from GUVI Institution. During my academic journey, I developed a keen interest in web development and was particularly drawn to the MERN stack for its versatility and efficiency in building modern web applications. <br>
+                        <br>
+                        
+                        As I embark on my journey as a MERN stack developer, my primary goal is to continue expanding my knowledge and honing my skills through hands-on experience, collaborative projects, and ongoing learning opportunities. I am eager to contribute to innovative projects, work alongside experienced professionals, and make a meaningful impact in the world of web development</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Development</span> <br> HTML,CSS,Javascript and React.Js</li>
+                            <li><span>Back-end Development</span> <br> Node.Js, Express Js, REST API's and Postman</li>
+                            <li><span>Database</span><br> MongoDB and MySQL</li>
+                            <li><span>Full-Stack Development</span><br>  Integrating frontend and backend components to develop end-to-end solutions that meet user needsL</li>
+                            <li><span>Version Control:</span><br>Familiarity with Git and GitHub for collaborative development and version control.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li>Since, I"m a fresher I have done some projects and I also mentioned them in Below</li>                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th-Standard - 2017  Percentage-90%</span> <br>Aruthra Vidyalaya Matriculation Higher Secondary School ,<br>Perambalur</li>
+                            <li><span>12th-Standard -2019  Percentage-63%</span> <br>Aruthra Vidyalaya Matriculation Higher Secondary School ,<br>Perambalur</li>
+                            <li><span>UG(Manufacturing Engg) -2023  Percentage-75%</span><br>Central Institute of Petrochemicals Engineering and Technology(CIPET), <br>Chennai</li>
+                            <li><span>MERN Course In</span><br> GUVI Institute</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- services -->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Responsive Design</h2>
+                <P>I prioritize responsive design principles to ensure that web applications deliver optimal viewing experiences across various devices and screen sizes. By leveraging CSS media queries and flexible layouts, I create websites that adapt seamlessly to desktops, tablets, and smartphones.</P>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Back-End Development</h2>
+                <P>Harnessing the power of Node.js and Express.js, I develop efficient server-side applications capable of handling complex data processing and logic. From API development to database management with MongoDB, I build robust backend systems that support the functionalities of modern web applications.</P>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database</h2>
+                <P> For Data storage and data processing I use MongoDb and Mongoose.since mongoDB is noSQL it is easy to use </P>
+        </div>
+    </div>
+</div>
+
+<!-- Projects -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/5afe8ceef88d7a93fba53f2cce310f28.jpg" alt="">
+                <div class="layer">
+                    <h3>Ecommerce site</h3>
+                    <p>Developed a fully functional eCommerce website clone featuring user authentication with admin and customer roles</p>
+                    <a href="https://github.com/Pragadeeshwaran15/Front_End"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Blog App</h3>
+                    <p>Created a dynamic blog application with CRUD functionality, utilizing a mock API and Axios for seamless data management.</p>
+                    <a href="https://github.com/Pragadeeshwaran15/BlogPage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>pragadeshm501@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9566649639</p>
+                <div class="social-icons">
+                      <a href="https://www.linkedin.com/in/m-pragadeeshwaran-ab9a9724a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://github.com/Pragadeeshwaran15" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                      <a href="https://www.instagram.com/_____.pragadesh._____/" target="_blank"><i class="fa-brands fa-instagram"></i></a>  
+                </div>
+                <a href="images/resume.pdf " download class="btn"><i class="fa-solid fa-download"></i>Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                 <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2"><i class="fa-regular fa-paper-plane"></i> Send</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwRuE0yOZhFjdpSLToQYcprfO9QyWrO504Xsgfw9X77mfuIqJRtJ8Eosum95oLcGxit/exec'
+        const form = document.forms['submit-to-google-sheet']
+       const msg =document.getElementById('msg')
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent Successfully"
+        setTimeout( function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
